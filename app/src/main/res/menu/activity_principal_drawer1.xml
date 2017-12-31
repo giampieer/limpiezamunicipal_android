@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="CONTROL">
+            <menu>
+                <item
+                    android:id="@+id/camionescercanos1"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="CAMIONES cercanos" />
+                <item
+                    android:id="@+id/horario1"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="HORARIO CAMIONES" />
+                <item
+                    android:id="@+id/peticion1"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="PETICION" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>
